@@ -1,0 +1,15 @@
+{{/* 覆盖主题的 Google Fonts，使用系统字体栈，国内加载速度优化 */}}
+<style>
+    :root {
+        --base-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Helvetica Neue", Arial, sans-serif;
+        --code-font-family: "SF Mono", "Fira Code", "Fira Mono", "Cascadia Code", Consolas, "Liberation Mono", Menlo, monospace;
+    }
+
+    body {
+        font-family: var(--base-font-family);
+    }
+
+    code, pre, kbd, samp {
+        font-family: var(--code-font-family);
+    }
+</style>
