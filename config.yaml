@@ -3,7 +3,7 @@ baseURL: "https://achaoaixuexi.github.io/"
 languageCode: "zh-cn"
 locale: "zh-cn"                # Hugo v0.158+ 用 locale，不加会有 languageCode 弃用警告（仅警告，不影响运行）
 theme: "hugo-theme-stack"
-title: "Michael的个人网站"          # 网站标题，改成你的
+title: "Michael的个人网站"          # 网站标题
 copyright: "Michael"   # 底部版权
 
 # 分页：每页显示几篇文章
