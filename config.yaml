@@ -3,7 +3,7 @@ baseURL: "https://achaoaixuexi.github.io/"
 locale: "zh-cn"
 theme: "hugo-theme-stack"
 title: "Michael的个人网站"          # 网站标题  
-copyright: "© 2026 Michael"   # 底部版权
+copyright: "Michael"   # 底部版权
 
 # 分页：每页显示几篇文章
 pagination:
