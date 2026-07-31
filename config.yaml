@@ -4,6 +4,7 @@ locale: "zh-cn"
 theme: "hugo-theme-stack"
 title: "Michael的个人网站"          # 网站标题  
 copyright: "Michael"   # 底部版权
+favicon: img/favicon.svg     # 浏览器标签图标
 
 # 分页：每页显示几篇文章
 pagination:
