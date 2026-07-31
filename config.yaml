@@ -40,6 +40,12 @@ menu:
       params:
         icon: brand-github
 
+    - identifier: gitee
+      name: Gitee
+      url: "https://gitee.com/a-chao-loves-writing"
+      params:
+        icon: brand-gitee
+
   main: []                       # 主菜单，先留空
 
 # 让文章摘要、代码高亮等更好看

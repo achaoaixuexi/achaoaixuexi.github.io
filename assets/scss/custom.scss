@@ -78,3 +78,20 @@ main.main {
 footer.site-footer {
     margin-top: auto;
 }
+
+/* ========== GitHub / Gitee 图标悬停放大 ========== */
+.menu-social li a[title="GitHub"] svg,
+.menu-social li a[title="Gitee"] svg {
+    transition: transform 0.2s ease;
+}
+
+.menu-social li a[title="GitHub"]:hover svg,
+.menu-social li a[title="Gitee"]:hover svg {
+    transform: scale(1.25);
+}
+
+/* Gitee 图标为填充型，移除主题的 stroke 样式 */
+.menu-social li a[title="Gitee"] svg {
+    stroke: none;
+    stroke-width: 0;
+}
