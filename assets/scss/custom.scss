@@ -61,12 +61,20 @@
 }
 
 /* ========== 页脚始终置底 ========== */
+html, body {
+    height: 100%;
+}
+
+.main-container {
+    min-height: 100vh;
+}
+
 main.main {
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
+    align-self: stretch;
+}
 
-    .article-list {
-        flex: 1;
-    }
+footer.site-footer {
+    margin-top: auto;
 }

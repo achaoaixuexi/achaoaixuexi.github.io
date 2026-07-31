@@ -1,0 +1,11 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Hugo Dev Server",
+			"type": "shell",
+			"command": "hugo server -D --port 1314 --noHTTPCache",
+			"isBackground": true
+		}
+	]
+}
