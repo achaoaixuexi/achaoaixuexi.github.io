@@ -1,0 +1,61 @@
+/*
+*   Custom styles for myblog
+*   This file is imported via layouts/_partials/head/custom.html
+*/
+
+/* ========== 文章卡片整卡可点击 ========== */
+.article-list article {
+    position: relative;
+}
+
+.article-card-overlay {
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    text-decoration: none;
+}
+
+/* 确保卡片内部的分类标签等仍可点击 */
+.article-list article .article-category a {
+    position: relative;
+    z-index: 2;
+}
+
+.article-list article .article-meta a {
+    position: relative;
+    z-index: 2;
+}
+
+/* ========== 侧边栏按钮 ========== */
+.sidebar-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-sm);
+}
+
+.sidebar-btn {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-md);
+    padding: 10px 16px;
+    border-radius: var(--card-border-radius);
+    background-color: var(--accent-color);
+    color: var(--accent-color-text);
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-decoration: none;
+    transition: opacity 0.2s ease, box-shadow 0.2s ease;
+
+    svg {
+        width: 18px;
+        height: 18px;
+        stroke: currentColor;
+        stroke-width: 1.5;
+        flex-shrink: 0;
+    }
+
+    &:hover {
+        opacity: 0.85;
+        box-shadow: var(--shadow-l1);
+    }
+}

@@ -16,7 +16,7 @@ params:
 
   # 左侧个人信息卡片
   sidebar:
-    subtitle: "记录、分享、成长"   # 头像下的一句话简介
+    subtitle: "学习、总结、记录、分享、成长"   # 头像下的一句话简介
     avatar: img/avatar.jpg       # 头像：直接写字符串路径，对应 assets/img/avatar.jpg
                                  # （不想用头像就删掉这一行）
 
@@ -24,6 +24,7 @@ params:
   article:
     math: false
     toc: true                    # 文章内显示目录
+    readingTime: false           # 不显示阅读时间
 
   # 评论：先关掉，玩熟了再看第十一节接入 giscus
   comments:
